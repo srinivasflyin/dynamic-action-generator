@@ -25,5 +25,5 @@ In react we will be having the no of actions to be handled Instead of creating e
       }
       
       By using the actionGenerator function we can create N no of functions:
-       let add = actionGenerator(type, 'id', 'text'); // it generates the function add with the arguments type, id and text.
+       let edit = actionGenerator(''EDIT_TODO', 'id', 'text'); // it generates the function add with the arguments type, id and text.
        
